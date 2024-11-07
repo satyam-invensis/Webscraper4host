@@ -1,0 +1,20 @@
+/* Tailwind's @tailwind directives (make sure they are included as well) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure full height for html and body */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Make sure the root div fills the height of the screen */
+#root {
+  min-height: 100%;
+}
+/* styles.css */
+.icon-dark-blue {
+  color: #1E3A8A; /* Dark Blue color */
+}
